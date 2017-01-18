@@ -1,4 +1,6 @@
 This scraper collects the current charts from the Top44 playlist of the radio station Bremen4. 
 
-Keywords: data collection, charts, music, artists, albums
+Keywords: data collection, charts, music database, artists, albums, sqlite.
+
+The database can be downloaded at https://morph.io/SuzanaK/top_44_radio_bremen_4
 
