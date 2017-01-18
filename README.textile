@@ -1,2 +1,4 @@
 This scraper collects the current charts from the Top44 playlist of the radio station Bremen4. 
 
+Keywords: data collection, charts, music, artists, albums
+
