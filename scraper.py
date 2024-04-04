@@ -16,11 +16,11 @@ def scrape_playlist():
   if tab:
     tr = tab[0].find_all('tr')
   else:
-    print "Tabelle nicht gefunden"
+    print("Tabelle nicht gefunden")
     return
 
   if not tr:
-    print "Tabellenzeilen nicht gefunden"
+    print("Tabellenzeilen nicht gefunden")
     return
 
   headlines =  soup.find_all('h2')
@@ -30,7 +30,7 @@ def scrape_playlist():
     datum = datum.strip().replace('"', '')
 
   else:
-    print "Datum nicht gefunden"
+    print("Datum nicht gefunden")
     return
 
   for row in tr[1:]:
